@@ -1519,6 +1519,7 @@ MODULE_DEVICE_TABLE(i2c, goodix_ts_id);
 static const struct acpi_device_id goodix_acpi_match[] = {
 	{ "GDIX1001", 0 },
 	{ "GDIX1002", 0 },
+	{ "GDIX1003", 0 },
 	{ "GDX9110", 0 },
 	{ }
 };
@@ -1533,6 +1534,7 @@ static const struct of_device_id goodix_of_match[] = {
 	{ .compatible = "goodix,gt5688" },
 	{ .compatible = "goodix,gt911" },
 	{ .compatible = "goodix,gt9110" },
+	{ .compatible = "goodix,gt9110p" },
 	{ .compatible = "goodix,gt912" },
 	{ .compatible = "goodix,gt9147" },
 	{ .compatible = "goodix,gt917s" },
